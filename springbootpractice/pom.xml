@@ -88,7 +88,7 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>sudo npm install</id>
+                        <id>npm install</id>
                         <goals>
                             <goal>npm</goal>
                         </goals>
@@ -97,7 +97,7 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>sudo npm run build</id>
+                        <id>npm run build</id>
                         <goals>
                             <goal>npm</goal>
                         </goals>
