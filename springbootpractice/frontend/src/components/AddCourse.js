@@ -4,6 +4,7 @@ import { toast } from "react-toastify";
 import { useEffect } from "react";
 import { Button, Container, Form, FormGroup, Input, Label } from "reactstrap";
 import base_url from "../api/bootapi";
+import { useNavigate } from "react-router-dom";
 
 const AddCourse = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const AddCourse = () => {
   const formHandler = (e) => {
     console.log(course);
     PostDataOnServer(course);
+    navigate("/view-courses");
   };
   //Creating Function to post data on Server
   const PostDataOnServer = (data) => {
