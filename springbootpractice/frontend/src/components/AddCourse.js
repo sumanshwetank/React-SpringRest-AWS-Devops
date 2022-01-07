@@ -7,6 +7,8 @@ import base_url from "../api/bootapi";
 import { useNavigate } from "react-router-dom";
 
 const AddCourse = () => {
+  let navigate = useNavigate();
+
   useEffect(() => {
     document.title = "Add New Course";
   }, []);
