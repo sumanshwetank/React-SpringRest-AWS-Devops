@@ -8,7 +8,7 @@ const Home = () => {
     },[])
     return (
         <div className="bg-light p-1 rounded-lg text-center">
-            <h1 className="display-6" style={{fontWeight:"bold",color:"brown"}}>Learning React JS with Spring Rest</h1>
+            <h1 className="display-6" style={{fontWeight:"bold",color:"brown"}}>Learning React JS with SpringBoot</h1>
             <p className="lead">This is developed by Shwetank Suman to learn Spring Boot Rest Web Service having UI as React JS</p>
             <hr className="my-3" />
             <p>It has got CRUD operation for Course Management</p>
