@@ -11,7 +11,7 @@ const Home = () => {
             <h1 className="display-6" style={{fontWeight:"bold",color:"brown"}}>Learning React JS with SpringBoot as Backend</h1>
             <p className="lead">This is developed by Shwetank Suman to learn Spring Boot Rest Web Service having UI as React JS</p>
             <hr className="my-3" />
-            <p>It has got CRUD operation for Course Management</p>
+            <p>It has got CRUD operation for Course Management Application</p>
             <Container>
                 <Button color="primary" outline> Start Learning</Button>
             </Container>
